@@ -30,7 +30,7 @@ function App() {
           <Topbar/>
           <Routes>
             <Route path='/' element={<Dashboard />} />
-            <Route path='/team' element={<Team />}
+            <Route path='/team' element={<Team />} />
           </Routes>
           
           </main>
