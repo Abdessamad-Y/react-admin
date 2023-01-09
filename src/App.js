@@ -8,12 +8,12 @@ import Team from "./scenes/team";
 //import Invoices from "./scenes/invoices";
 //import Contacts from "./scenes/contacts";
 //import Bar from "./scenes/bar";
-//import Form from "./scenes/form";
+import Form from "./scenes/form";
 //import Line from "./scenes/line";
 //import Pie from "./scenes/pie";
 //import FAQ from "./scenes/faq";
 //import Geography from "./scenes/geography";
-//import Calendar from "./scenes/calendar/calendar";
+import Calendar from "./scenes/calendar";
 
 import { useState } from "react";
 function App() {
@@ -31,6 +31,8 @@ function App() {
           <Routes>
             <Route path='/' element={<Dashboard />} />
             <Route path='/team' element={<Team />} />
+            <Route path='/form' element={<Form />} />
+            <Route path='/calendar' element={<Calendar />} />
           </Routes>
           
           </main>
